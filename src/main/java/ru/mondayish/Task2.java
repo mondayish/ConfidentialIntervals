@@ -12,6 +12,7 @@ public class Task2 {
         double o = Math.sqrt(sumXX/n - average*average);
         double left = round(average - t*o/Math.sqrt(n));
         double right = round(average + t*o/Math.sqrt(n));
+        System.out.println("Task 2:");
         System.out.println(left + " < m < " + right);
     }
 

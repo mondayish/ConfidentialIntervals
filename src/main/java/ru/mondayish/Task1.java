@@ -15,6 +15,7 @@ public class Task1 {
         double s = Math.sqrt(data.size() * dispersion / (data.size() - 1));
         double left = round(average - t*s/Math.sqrt(data.size()));
         double right = round(average + t*s/Math.sqrt(data.size()));
+        System.out.println("Task 1:");
         System.out.println(left + " < m < " + right);
     }
 
